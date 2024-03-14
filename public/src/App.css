@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling for the sign-up/sign-in container */
+#form-container {
+  font-family: Arial, sans-serif;
+  background-color: #99a3c4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+
+
+/********************************************************
+ * Form CSS
+ ********************************************************/
+/* Styling for the sign-up/sign-in form within the container */
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the heading within the sign-up/sign-in form */
+h2 {
+  color: #333;
+}
+
+/* Styling for labels within the form */
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Styling for input fields within the form */
+input{
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-right: 5px;
+}
+
+select {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Style the dropdown menu */
+select option {
+  background-color: white;
+  height: 80px;
+}
+
+/* Styling for the submit button within the form */
+button {
+  background-color: #022B3A;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#submit-button,
+#reset-button {
+
+  width: 120px;
+  /* margin-left: 50px; */
+}
+
+/* Hover effect for the submit button */
+button:hover {
+  background-color: #022B3A;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #022B3A;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #e9edda;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.default-time-picker {
+  /* background-color: red; */
+  width: 100%;
+  padding: 10px;
+  /* margin: 5px 5px 5px 5px; */
+}
