@@ -1,4 +1,11 @@
 {
+  "name": "tradesynch",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "webserver.js",
+  "scripts": {
+    "start": "node webserver.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
